@@ -126,7 +126,7 @@ Render.run(renderer)
 
 
 // device orientation
-winsow.addEventListener("deviceorientation", function(e) {
+window.addEventListener("deviceorientation", function(e) {
     engine.world.gravity.x = e.gamma / 30
     engine.world.gravity.y = e.beta / 30
 })
